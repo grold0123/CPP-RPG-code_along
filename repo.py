@@ -1,11 +1,14 @@
-import subprocess
+import subprocess,os
 
+
+os.system("cls")
 
 args = [
-    ['git','add','C:\projects\CPP-RPG-code_along'],#add
-    ['git','commit','-m','update'],#commit
-    ['git','push'],#push
+    ('git add:\n\n',['git','add','C:\projects\CPP-RPG-code_along']),#add
+    ('git commit:\n\n',['git','commit','-m','update']),#commit
+    ('git push:\n\n',['git','push']),#push
 ]
 
-for arg in args:
+for prompt,arg in args:
+    print(prompt)
     subprocess.run(arg)
