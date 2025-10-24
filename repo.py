@@ -11,4 +11,5 @@ args = [
 
 for prompt,arg in args:
     print(prompt)
+    print('\nSuccesful')
     subprocess.run(arg)
