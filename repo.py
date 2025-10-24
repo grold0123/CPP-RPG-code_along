@@ -4,9 +4,9 @@ import subprocess,os
 os.system("cls")
 
 args = [
-    ('git add:\n\n',['git','add','C:\projects\CPP-RPG-code_along']),#add
-    ('git commit:\n\n',['git','commit','-m','update']),#commit
-    ('git push:\n\n',['git','push']),#push
+    ('\n\ngit add:\n\n',['git','add','C:\projects\CPP-RPG-code_along']),#add
+    ('\n\ngit commit:\n\n',['git','commit','-m','update']),#commit
+    ('\n\ngit push:\n\n',['git','push']),#push
 ]
 
 for prompt,arg in args:
