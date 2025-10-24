@@ -10,6 +10,6 @@ args = [
 ]
 
 for prompt,arg in args:
-    print(prompt)
-    print('\nSuccesful')
+    print(prompt)    
     subprocess.run(arg)
+    print('\nSuccesful')
