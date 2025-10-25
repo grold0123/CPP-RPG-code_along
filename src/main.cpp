@@ -4,9 +4,8 @@
 #include<game/wizard.h>
 
 int main(){
+    system("cls");
     
-    //  testing instanciating a warrior class
-    //  using getter function
     Warrior adventurer_1("Adventurer");        
     adventurer_1.display_stats();
     
