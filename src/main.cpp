@@ -1,7 +1,21 @@
-#include<iostream>
+#include<helpers/helper_functions.h>
+#include<game/warrior.h>
+#include<game/rouge.h>
+#include<game/wizard.h>
 
 int main(){
-    std::cout << "\n\nHello world\n\n";
+    
+    //  testing instanciating a warrior class
+    //  using getter function
+    Warrior adventurer_1("Adventurer");        
+    adventurer_1.display_stats();
+    
+    Wizard adventurer_2("Mage");    
+    adventurer_2.display_stats();
+
+    Rouge adventurer_3("Thief");    
+    adventurer_3.display_stats();
+    
 }
 
 
@@ -17,6 +31,7 @@ Cleric  : uses support magic
 Rogue   : highest consistant melee/ranged damage
     hp growth:  13 / level    
 **************************************************/
+
 
 
 /*

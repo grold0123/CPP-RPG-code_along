@@ -12,4 +12,4 @@ args = [
 for prompt,arg in args:
     print(prompt)    
     subprocess.run(arg)
-    print('\nSuccesful')
+    print('\nSuccesfull')
